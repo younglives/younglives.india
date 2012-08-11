@@ -12,6 +12,8 @@ class TestCase(PloneSandboxLayer):
 
     def setUpZope(self, app, configurationContext):
         # Load ZCML
+        import plone.app.theming
+        self.loadZCML(package=plone.app.theming)
         import younglives.theme
         self.loadZCML(package=younglives.theme)
         import younglives.india
