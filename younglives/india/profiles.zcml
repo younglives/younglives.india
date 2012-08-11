@@ -1,0 +1,14 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
+    i18n_domain="younglives.india">
+
+  <genericsetup:registerProfile
+      name="default"
+      title="younglives.india"
+      directory="profiles/default"
+      description="Installs the younglives.India theme"
+      provides="Products.GenericSetup.interfaces.EXTENSION"
+      />
+  
+</configure>

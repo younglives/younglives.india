@@ -1,0 +1,4 @@
+<layers>
+    <layer name="younglives.india"
+        interface="younglives.india.browser.interfaces.IYounglivesIndia" />
+</layers>
