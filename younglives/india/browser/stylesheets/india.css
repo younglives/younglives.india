@@ -12,3 +12,10 @@ body
 {
     color: white;
 }
+
+a, a:link, a:visited, a:hover, a:active,
+#content a:visited,
+#portal-globalnav li a
+{
+    color: #C01953;
+}
