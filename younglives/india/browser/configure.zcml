@@ -3,4 +3,16 @@
     xmlns:browser="http://namespaces.zope.org/browser"
     i18n_domain="younglives.india">
 
+  <browser:resourceDirectory
+      name="younglives.india.stylesheets"
+      directory="stylesheets"
+      layer=".interfaces.IYounglivesIndia"
+      />
+
+  <browser:resourceDirectory
+      name="younglives.india.images"
+      directory="images"
+      layer=".interfaces.IYounglivesIndia"
+      />
+
 </configure>
