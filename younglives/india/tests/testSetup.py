@@ -24,6 +24,9 @@ class TestInstallation(unittest.TestCase):
         layers = [o.__name__ for o in registered_layers()]
         assert 'IYounglivesIndia' in layers
 
+    def testCssInstalled(self):
+        assert '++resource++younglives.india.stylesheets/india.css' in self.portal.portal_css.getResourceIds()
+
 class TestReinstall(unittest.TestCase):
     """Ensure product can be reinstalled safely"""
     layer = INTEGRATION_TESTING
