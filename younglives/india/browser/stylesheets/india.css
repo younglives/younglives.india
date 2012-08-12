@@ -14,8 +14,7 @@ body
 }
 
 a, a:link, a:visited, a:hover, a:active,
-#content a:visited,
-#portal-globalnav li a
+#content a:visited
 {
     color: #C01953;
 }
