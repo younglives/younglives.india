@@ -2,3 +2,8 @@
 {
     background-color: #C01953;
 }
+
+#breadcrumbs-wrapper a
+{
+    color: white;
+}
