@@ -18,3 +18,11 @@ a, a:link, a:visited, a:hover, a:active,
 {
     color: #C01953;
 }
+
+.portletNavigationTree a,
+.portletNavigationTree a:link,
+.portletNavigationTree a:visited,
+.portletNavigationTree a:active
+{
+    color: #C01953 !important;
+}
