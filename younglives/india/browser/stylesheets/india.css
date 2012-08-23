@@ -13,16 +13,25 @@ body
     color: white;
 }
 
-a, a:link, a:visited, a:hover, a:active,
-#content a:visited
+a, a:link
 {
     color: #C01953;
 }
 
+a:visited, a:hover, a:active,
+#content a:visited
+{
+    color: #E08CA9;
+}
+
 .portletNavigationTree a,
-.portletNavigationTree a:link,
+.portletNavigationTree a:link
+{
+    color: #C01953 !important;
+}
+
 .portletNavigationTree a:visited,
 .portletNavigationTree a:active
 {
-    color: #C01953 !important;
+    color: #E08CA9 !important;
 }

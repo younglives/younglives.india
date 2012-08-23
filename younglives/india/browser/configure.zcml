@@ -15,4 +15,6 @@
       layer=".interfaces.IYounglivesIndia"
       />
 
+  <include package=".portlets" />
+
 </configure>
