@@ -24,7 +24,7 @@ setup(name='younglives.india',
       zip_safe=False,
       install_requires=[
           'setuptools',
-          'younglives.theme',
+          'younglives.policy',
       ],
       extras_require = {
             'test': [
