@@ -3,6 +3,12 @@ body
     background-color: rgba(192, 25, 83, 0.1);
 }
 
+#portaltab-international_tab
+{
+    position: relative;
+    left: -30px;
+}
+
 #breadcrumbs-wrapper
 {
     background-color: #C01953;
@@ -39,4 +45,9 @@ a:visited, a:hover, a:active,
 .portletNavigationTree a:active
 {
     color: #E08CA9 !important;
+}
+
+dl.portletStaticText
+{
+    background-color: transparent;
 }
