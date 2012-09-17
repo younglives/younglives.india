@@ -10,6 +10,7 @@
         name="younglives.india-banner"
         manager="plone.app.layout.viewlets.interfaces.IAboveContent"
         class=".country-banner.CountryBannerViewlet"
+        layer="younglives.india.browser.interfaces.IYounglivesIndia"
         permission="zope2.View"
         />
 
