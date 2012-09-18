@@ -52,7 +52,13 @@ a:visited, a:hover, a:active,
     color: #E08CA9 !important;
 }
 
+.portlet dt.portletHeader
+{
+    background-color: #C01953;
+    color: white;
+}
+
 dl.portletStaticText
 {
-    background-color: transparent;
+    background-color: rgba(192, 25, 83, 0.1);
 }
