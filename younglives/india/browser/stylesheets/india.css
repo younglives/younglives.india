@@ -19,6 +19,11 @@ body
     color: white;
 }
 
+#country-banner-wrapper
+{
+    margin-bottom: 5px;
+}
+
 #content-wrapper
 {
     padding-top: 0px;
