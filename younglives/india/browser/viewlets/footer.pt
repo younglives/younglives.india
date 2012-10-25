@@ -24,7 +24,7 @@
             <li>
                 <a title="News &amp; Events" alt="News &amp; Events"
                     i18n:attributes="title; alt"
-                    tal:attributes="href string:${context/portal_url}/what-we-do/news-and-events">
+                    tal:attributes="href string:${context/portal_url}/news-and-events">
                     <img src="++theme++younglives.theme/images/quotes.png" />
                     <span i18n:translate="younglives_theme_label_news_and_events">News &amp; Events</span>
                 </a>
@@ -32,7 +32,7 @@
             <li>
                 <a title="E-newsletter / e-alerts" alt="E-newsletter / e-alerts"
                     i18n:attributes="title; alt"
-                    tal:attributes="href string:${context/portal_url}/who-we-are/find-out-more">
+                    tal:attributes="href string:http://www.younglives.org.uk/who-we-are/find-out-more">
                     <img src="++theme++younglives.theme/images/alerts.png" />
                     <span i18n:translate="younglives_theme_label_enewsletter">E-newsletter / e-alerts</span>
                 </a>
@@ -48,7 +48,7 @@
             <li>
                 <a title="iTunes U podcasts" alt="iTunes U podcasts"
                     i18n:attributes="title; alt"
-                    tal:attributes="href string:${context/portal_url}/what-we-do/news-and-events/podcasts">
+                    tal:attributes="href string:http://www.younglives-india.org/news-and-events/podcasts">
                     <img src="++theme++younglives.theme/images/podcasts.png" />
                     <span i18n:translate="younglives_theme_label_itunes">iTunes U podcasts</span>
                 </a>
@@ -56,7 +56,7 @@
             <li>
                 <a title="Contact us" alt="Contact us" accesskey="6"
                     i18n:attributes="title; alt"
-                    tal:attributes="href string:${context/portal_url}/who-we-are/contact-details">
+                    tal:attributes="href string:${context/portal_url}/find-out-more">
                     <img src="++theme++younglives.theme/images/contact.png" />
                     <span i18n:translate="younglives_theme_label_contact_us">Contact us</span>
                 </a>
@@ -76,7 +76,7 @@
                 i18n:translate="younglives_theme_label_sitemap"
                 >Sitemap</a></li>
             <li><a title="Terms and Conditions" alt="Terms and Conditions"
-                tal:attributes="href string:${context/portal_url}/terms-and-conditions"
+                tal:attributes="href string:http://www.younglives.org.uk/terms-and-conditions"
                 i18n:attributes="title; alt"
                 i18n:translate="younglives_theme_label_terms_conditions"
                 >Terms &amp; Conditions</a></li>
