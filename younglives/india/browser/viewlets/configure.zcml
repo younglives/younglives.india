@@ -14,4 +14,12 @@
         permission="zope2.View"
         />
 
+  <browser:viewlet
+        name="younglives.india.footer"
+        manager="plone.app.layout.viewlets.interfaces.IPortalFooter"
+        class="younglives.theme.browser.footer.FooterViewlet"
+        template="footer.pt"
+        layer="younglives.india.browser.interfaces.IYounglivesIndia"
+        permission="zope2.View" />
+
 </configure>
