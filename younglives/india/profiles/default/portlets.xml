@@ -4,12 +4,20 @@
     i18n:domain="plone">
 
  <assignment
+     purge="True"
      manager="plone.rightcolumn"
      category="context"
      key="/"
-     type="younglives.portlets.KeyResources"
-     name="KeyResources"
      />
+
+ <assignment
+     manager="plone.rightcolumn"
+     category="context"
+     key="/"
+     type="younglives.portlets.Latest"
+     name="LatestPortlet">
+     <property name="limit">5</property>
+ </assignment>
 
  <assignment
      insert-before="*"
