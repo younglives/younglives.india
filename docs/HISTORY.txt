@@ -1,8 +1,12 @@
 Changelog
 =========
 
-1.0.1 Unreleased
+1.0.1 2013/02/22
 ----------------
+
+ - Update links to the country sites
+ - Add twitter links
+ - Customise the footer
 
 1.0.0 2012/09/18
 ----------------
