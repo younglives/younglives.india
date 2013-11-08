@@ -4,6 +4,6 @@
      i18n:domain="younglives.india"
      class="portlet" id="india-logo-portlet">
 
-    <img src="++resource++younglives.india.images/india.jpg" />
+    <img tal:attributes="src string:${context/portal_url}/++resource++younglives.india.images/india.jpg" />
 
 </div>
